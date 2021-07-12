@@ -45,6 +45,7 @@ module.exports = {
     "react/forbid-prop-types": 0,
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-curly-newline": 0,
     "react/jsx-filename-extension": ["error", { extensions: [".js", ".jsx"] }],
     "react/jsx-one-expression-per-line": 0,
     "react/jsx-props-no-spreading": 0,
