@@ -45,9 +45,12 @@ module.exports = {
     "react/forbid-prop-types": 0,
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-curly-newline": 0,
     "react/jsx-filename-extension": ["error", { extensions: [".js", ".jsx"] }],
+    "react/jsx-one-expression-per-line": 0,
     "react/jsx-props-no-spreading": 0,
     "react/jsx-sort-props": ["error", { ignoreCase: true }],
+    "react/jsx-wrap-multilines": 0,
     "react/no-array-index-key": 0,
     "react/no-did-mount-set-state": 0,
     "react/prefer-stateless-function": 0,
@@ -109,6 +112,7 @@ module.exports = {
     "no-param-reassign": ["error", { props: false }],
     "no-new": 0,
     "no-tabs": "error",
+    "no-unused-vars": 0,
     "prefer-destructuring": [
       "error",
       {
