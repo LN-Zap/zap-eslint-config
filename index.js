@@ -48,6 +48,7 @@ module.exports = {
     "react/jsx-filename-extension": ["error", { extensions: [".js", ".jsx"] }],
     "react/jsx-props-no-spreading": 0,
     "react/jsx-sort-props": ["error", { ignoreCase: true }],
+    "react/jsx-wrap-multilines": 0,
     "react/no-array-index-key": 0,
     "react/no-did-mount-set-state": 0,
     "react/prefer-stateless-function": 0,
