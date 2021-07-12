@@ -112,6 +112,7 @@ module.exports = {
     "no-param-reassign": ["error", { props: false }],
     "no-new": 0,
     "no-tabs": "error",
+    "no-unused-vars": 0,
     "prefer-destructuring": [
       "error",
       {
