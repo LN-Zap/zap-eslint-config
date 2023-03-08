@@ -30,6 +30,6 @@ updates:
       - "security"
       - "scope:dependabot-security"
       - "scope:security-vulnerability"
-      - "team:api-and-services"
+      - "team:apis-and-services"
       - "p3"
       - "type:chore"
