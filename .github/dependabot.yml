@@ -1,0 +1,35 @@
+# Dependabot Automation for this repository
+
+version: 2
+updates:
+  
+   # 1. NPM packages
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      # Check for updates every weekday
+      interval: "daily"
+    
+    # Auto-rebase Dependabot PR's
+    rebase-strategy: "auto"
+    
+    # Set PR limit to zero to force-disable auto-creation for Version Updates.
+    # Does not apply to Security-Updates which is what we're looking for.
+    open-pull-requests-limit: 0
+    
+    # Add assignees
+    assignees:
+      - "korhaliv"
+    
+    # Add reviewers
+    reviewers:
+      - "LN-Zap/apis-and-services"
+    
+    # Add Labels
+    labels:
+      - "security"
+      - "scope:dependabot-security"
+      - "scope:security-vulnerability"
+      - "team:apis-and-services"
+      - "p3"
+      - "type:chore"
