@@ -15,9 +15,10 @@ on:
 # Allow running tests manually.
   workflow_dispatch:
 
+# Disabling cron as it's unreliable, and Github doesn't guarantee execution in high-activity times and days. Switching to workflow dispatch POST cron from Tines. We're still able to manually dispatch this workflow via Github Actions.
 # Weekly scan Wednesday's 23:00 UTC 
-  schedule:
-    - cron: '0 23 * * 3'
+#  schedule:
+#    - cron: '0 23 * * 3'
 
 jobs:
   analyze:
