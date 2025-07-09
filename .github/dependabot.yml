@@ -23,13 +23,13 @@ updates:
     
     # Add reviewers
     reviewers:
-      - "LN-Zap/apis-and-services"
+      - "LN-Zap/consumer-backend"
     
     # Add Labels
     labels:
       - "security"
       - "scope:dependabot-security"
       - "scope:security-vulnerability"
-      - "team:apis-and-services"
+      - "team:consumer"
       - "p3"
       - "type:chore"
